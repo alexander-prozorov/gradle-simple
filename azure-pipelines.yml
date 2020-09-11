@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- task: Gradle@2
+- task: GradleStale@2
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
